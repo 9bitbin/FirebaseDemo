@@ -1,3 +1,14 @@
+Himal: having issues with the code Javax run time
+## Error Screenshot
+
+Here is an error screenshot for reference:
+
+![Error Screenshot](src/main/resources/Error.png)
+
+
+
+
+
 # FirebaseDemo
 This app  has a rudimentary GUI but includes Java code examples on how to use a firestore database and email/password authentication in firebase in your IntelliJ project. The purpose of the sample app  is to add persons with name and age properties to a firestore collection called Persons and register users to the firebase project for email/password authentication.
 ## The GUI
