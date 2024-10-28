@@ -1,0 +1,18 @@
+.button {
+    -fx-background-color: #4CAF50; /* Green background */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+}
+
+.text-field {
+    -fx-border-color: #000000;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.text-area {
+    -fx-border-color: #000000;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
