@@ -35,7 +35,7 @@ package aydin.firebasedemo;
 public class Person {
     private String name;
     private int age;
-    private String phoneNumber;  // Added phone number field
+    private String phoneNumber;  // Added phone n umber field
 
     // Constructor to initialize the Person object with name, age, and phone number
     public Person(String name, int age) {
