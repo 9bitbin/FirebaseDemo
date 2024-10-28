@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aydin.firebasedemo.Welcomescreen" prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #F4C542; -fx-border-color: #D7263D; -fx-border-width: 5; -fx-padding: 20;" prefWidth="600.0" prefHeight="400.0">
+            <padding>
+                <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+            </padding>
+            <children>
+                <Label text="Welcome to My App" style="-fx-font-family: 'Courier New'; -fx-font-size: 24; -fx-text-fill: #D7263D; -fx-font-weight: bold;" />
+                <Button fx:id="registerButton" mnemonicParsing="false" onAction="#registerButtonClicked" prefHeight="50.0" prefWidth="200.0" text="Register" style="-fx-background-color: #D7263D; -fx-text-fill: #FFFFFF; -fx-font-family: 'Courier New'; -fx-font-size: 18;" />
+                <Button fx:id="signInButton" mnemonicParsing="false" onAction="#signInButtonClicked" prefHeight="50.0" prefWidth="200.0" text="Sign In" style="-fx-background-color: #D7263D; -fx-text-fill: #FFFFFF; -fx-font-family: 'Courier New'; -fx-font-size: 18;" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import java.lang.*?>-->
+<!--<?import java.util.*?>-->
+<!--<?import javafx.scene.*?>-->
+<!--<?import javafx.scene.control.*?>-->
+<!--<?import javafx.scene.layout.*?>-->
+
+<!--<AnchorPane xmlns="http://javafx.com/javafx"-->
+<!--            xmlns:fx="http://javafx.com/fxml"-->
+<!--            fx:controller="aydin.firebasedemo.Welcomescreen"-->
+<!--            prefHeight="400.0" prefWidth="600.0">-->
+
+<!--</AnchorPane>-->
